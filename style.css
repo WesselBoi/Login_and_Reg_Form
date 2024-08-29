@@ -1,0 +1,130 @@
+input:focus,
+textarea {
+  outline: none !important;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-image: url(MacBook-M3-Space-Blackf-294923bf190716df76bddba370c3157d0f049ba0.jpg);
+  background-repeat: no-repeat;
+  background-size: 100dvw 100dvh;
+}
+
+.container {
+  margin-top: 150px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: rgba(160, 160, 160, 0.663);
+  border-color: rgb(206, 206, 206);
+  border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.logregbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.socials img {
+  padding: 8px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: rgba(54, 54, 54, 0.269);
+  transition-property: background-color;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+
+  &:hover{
+    background-color: rgba(54, 54, 54, 0.565);
+  }
+}
+#twitter_logo {
+  height: 28px;
+  width: 28px;
+}
+
+.login{
+  background-color: gray;
+}
+.login,
+.register {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: Playfair Display;
+}
+.inputs input[type="text"] ,input[type="password"] {
+  border: none;
+  border-radius: 20px;
+  height: 35px;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  width: 300px;
+  border-color: black;
+  box-shadow: rgba(0, 0, 0, 0.518) 0px 19px 38px, rgba(0, 0, 0, 0.518) 0px 15px 12px;
+  font-family: Playfair Display;
+}
+
+input[type="email"]{
+  border: none;
+  border-radius: 20px;
+  height: 35px;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  width: 300px;
+  border-color: black;
+  box-shadow: rgba(0, 0, 0, 0.518) 0px 19px 38px, rgba(0, 0, 0, 0.518) 0px 15px 12px;
+}
+
+.inputs input[type="checkbox"] {
+  margin-right: 7px;
+  margin-bottom: 70px;
+  cursor: pointer;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  width: 100px;
+  padding: 8px 8px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(196, 196, 196);
+  cursor: pointer;
+  font-family: Playfair Display;
+  transition-property: background-color;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+
+  &:hover{
+    background-color: gray;
+  }
+}
+
+.CheckBoxText{
+  font-family: Playfair Display;
+}
